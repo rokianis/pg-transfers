@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PG Transfers</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="upload-container">
+        <h1>PG Transfers</h1>
+        <div class="upload-area" id="dropZone">
+            <p>Drop files here or click to upload</p>
+            <input type="file" id="fileInput" multiple hidden>
+        </div>
+        <div class="progress-bar" hidden>
+            <div class="progress"></div>
+        </div>
+        <div class="share-link" hidden>
+            <p>Share this link:</p>
+            <input type="text" id="shareLink" readonly>
+        </div>
+    </div>
+    <script src="/static/js/upload.js"></script>
+</body>
+</html>

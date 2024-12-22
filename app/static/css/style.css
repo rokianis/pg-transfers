@@ -1,0 +1,29 @@
+:root {
+    --bg-color: #1a1a1a;
+    --accent-color: #ff69b4;
+    --secondary-accent: #4169e1;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.upload-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.upload-area {
+    border: 2px dashed var(--accent-color);
+    padding: 40px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.upload-area:hover {
+    border-color: var(--secondary-accent);
+}
